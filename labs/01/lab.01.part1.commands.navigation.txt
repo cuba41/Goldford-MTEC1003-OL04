@@ -16,9 +16,8 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
-
-
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	get-pip.py
 
 
 ==========
@@ -28,7 +27,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+drwxr-xr-x@ 11 a________  staff    352 Aug 26 11:49 Max 8
+-rw-r--r--@  1 a________  staff  18777 Oct 16  2019 Opinion Essay GOV.docx
 
 
 
@@ -41,7 +41,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			.localized		Paper 2.docx
+..			Max 8
 
 
 
@@ -54,7 +55,7 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 
@@ -63,7 +64,7 @@ Copy and paste the output below.
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-
+up arrow
 
 
 
@@ -72,8 +73,8 @@ Copy and paste the output below.
 ==========
 6.  Name two flags that we used in this exercise.
 ----------
-
-
+-l
+-a
 
 
 
@@ -81,7 +82,7 @@ Copy and paste the output below.
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 
@@ -90,7 +91,7 @@ Copy and paste the output below.
 ==========
 8.  What's one an argument that we've so far passed to a command?
 ----------
-
+Documents
 
 
 
@@ -103,8 +104,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
-
+-bash: foo: command not found
 
 
 
@@ -116,8 +116,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
-
+-bash: up: command not found
 
 
 
@@ -129,10 +128,10 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
-
-
-
-
+prompt: $
+command: ls
+flag: -a 
+argument: Desktop
 
 Lab 1 / Part 2 - Navigating the File System
 ==========
