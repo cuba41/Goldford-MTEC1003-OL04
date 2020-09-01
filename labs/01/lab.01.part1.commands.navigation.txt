@@ -37,7 +37,7 @@ drwxr-xr-x@ 11 a________  staff    352 Aug 26 11:49 Max 8
 ==========
 3.  Type:
 
-$ ls -a Documents
+$ ls -a Documents 
 
 Copy and paste the first *two lines* of output below.
 ----------
