@@ -143,19 +143,17 @@ Follow the instructions line-by-line.
 ==========
 
 ==========
-12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
+12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
-
-
+mkdir mtec1003
 
 
 
 ==========
-13. Change your directory so that you're in mtec1002. What command did you use?
+13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
-
-
+cd mtec1003
 
 
 
@@ -165,13 +163,13 @@ Follow the instructions line-by-line.
 
 $ pwd
 
-Check that the output ends with mtec1002 (something like this: /Users/joe/mtec1002).
+Check that the output ends with mtec1003 (something like this: /Users/joe/mtec1002).
 
 If it doesn't ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/Users/a________/mtec1003
 
 
 
@@ -185,7 +183,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 
@@ -199,8 +197,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
+animals	food
 
 
 
@@ -213,7 +210,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 
@@ -227,8 +224,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/Users/a________/mtec1003/foo/bar/baz/qux
 
 
 
@@ -241,8 +237,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/Users/a________/mtec1003/foo/bar
 
 
 
@@ -255,8 +250,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/Users/a________/mtec1003/foo/bar/baz/qux
 
 
 
@@ -269,8 +263,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/Users/a________/mtec1003
 
 
 
@@ -284,11 +277,9 @@ $ ls -l
 
 Copy and paste the first 3 lines from the output into the space below.
 ----------
-
-
-
-
-
+total 0
+drwxr-xr-x  3 a________  staff  96 Sep  2 17:27 foo
+drwxr-xr-x  2 a________  staff  64 Sep  2 17:27 food
 
 ==========
 23. Type:
@@ -298,8 +289,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+/Users/a________
 
 
 
@@ -326,8 +316,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+/Volumes
 
 
 
@@ -340,8 +329,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+/Users/a________/mtec1003
 
 
 
@@ -354,16 +342,15 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
-
+Antonios-MacBook-Air.local
 
 
 
 ==========
-28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
+28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+cd ~/mtec1003
 
 
 
@@ -371,7 +358,7 @@ Copy and paste the output into the space below.
 ==========
 29. If you're not in the right directory, type the following command:
 
-cd ~/mtec1002
+
 
 Otherwise skip this question/step!
 ----------
@@ -393,7 +380,7 @@ lemon
 
 Write the one command you used below:
 ----------
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 
 
@@ -405,7 +392,7 @@ Write the one command you used below:
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 
 
@@ -415,10 +402,9 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
-
-
-
+ls aardvark
+ls -l
+drwxr-xr-x  2 a________  staff  64 Sep  2 17:43 aardvark
 
 
 ==========
@@ -430,7 +416,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+mkdir -p foo/bar/baz
 
 
 
@@ -442,7 +428,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd /baz
 
 
 
@@ -452,7 +438,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ..
 
 
 
@@ -461,7 +447,7 @@ What command did you use?
 ==========
 36. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 
@@ -470,7 +456,7 @@ What command did you use?
 ==========
 37. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 
@@ -479,7 +465,7 @@ What command did you use?
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
-
+ls -l
 
 
 
@@ -488,7 +474,7 @@ What command did you use?
 ==========
 39. What's the shortcut for home directory?
 ----------
-
+cd -
 
 
 
@@ -497,7 +483,7 @@ What command did you use?
 ==========
 40. What's a pathname?
 ----------
-
+form of the name of a file or directory that's specifies a unique location in a file system
 
 
 
@@ -506,7 +492,7 @@ What command did you use?
 ==========
 41. What is a directory?
 ----------
-
+catloging structure on a file system that references other files
 
 
 
@@ -515,3 +501,4 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+paths that are expressed as starting from root
